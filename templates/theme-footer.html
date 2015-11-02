@@ -10,9 +10,15 @@
 
 <div class="wrapper-footer">
   <footer>
+<div id="su-footer-logo" class="span2" style="float: left; padding-right: 20px;">
+        <a href="http://www.sgu.edu">
+          <img src="https://dl.dropboxusercontent.com/u/38501835/SGU_V%20copy.png" alt="St. George's University" width="100"/>
+        </a>
+      </div>
     <div class="colophon">
       <nav class="nav-colophon">
         <ol>
+	  <li class="home"><a href="http://www.sgu.edu">SGU Home</a></li>
           <li><a href="${reverse('about')}">About</a></li>
           <li><a href="${reverse('about')}#careers">Careers</a></li>
           <li><a href="${reverse('about')}#contact">Contact</a></li>
@@ -27,7 +33,7 @@
       <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
     </div>
 
-    <div class="copyright">
+    <div class="copyright" style="display: inline-block;">
         <p><span>
             ${_('Copyright {year}. All rights reserved.').format(
                 year=date.today().year
