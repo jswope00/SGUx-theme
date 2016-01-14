@@ -37,7 +37,13 @@ $white: $gray-1;
 $black: #2e2d29;
 $black-80: #585754;
 
-
+//Variables add November '15 for Dashboard
+$dashboard-course-cover-border: #8c1515;
+$honorcode-color-lvl2: #8c1515;
+$honorcode-color-lvl1: #8c1515;
+$m-blue-d3: #8c1515;
+$m-blue-d1: #830000;
+$m-blue-d4: #2c0707;
 
 //-----------------
 //  Font Assignment
@@ -99,7 +105,7 @@ $shadow-color: $gray;
 
 // actions
 $button-bg-image: none;
-$button-bg-color: $gray-3;
+$button-bg-color: transparent;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
